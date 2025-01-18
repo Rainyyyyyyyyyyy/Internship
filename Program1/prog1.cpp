@@ -56,8 +56,7 @@ void *t1(void *arg){    // функция для потока 1
   }
   return NULL;
 }
-void *t2(void *arg){
-    std::cout<<"i'm client\n";       
+void *t2(void *arg){      
     std::cout<<"Enter servers port: ";
     int server_port;
     std::cin>>server_port;
